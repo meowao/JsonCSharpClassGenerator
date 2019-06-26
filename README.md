@@ -1,3 +1,4 @@
+默认字段和文件名字首字母大写
 # JsonCSharpClassGenerator
 
 JsonCSharpClassGenerator forked from http://jsonclassgenerator.codeplex.com/
