@@ -77,7 +77,7 @@ namespace Xamasoft.JsonClassGenerator
 
         public void AssignName(string name, string originalName)
         {
-            AssignedName = name;
+            AssignedName = JsonClassGenerator.ToTitleCase(name);
             OriginalName = originalName;
         }
 

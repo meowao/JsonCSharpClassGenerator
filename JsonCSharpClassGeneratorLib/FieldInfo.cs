@@ -17,8 +17,7 @@ namespace Xamasoft.JsonClassGenerator
         {
             this.generator = generator;
             this.JsonMemberName = jsonMemberName;
-            this.MemberName = jsonMemberName;
-            if (usePascalCase) MemberName = JsonClassGenerator.ToTitleCase(MemberName);
+            this.MemberName = JsonClassGenerator.ToTitleCase(jsonMemberName);
             this.Type = type;
             this.Examples = Examples;
         }
